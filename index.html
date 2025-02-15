@@ -1,0 +1,100 @@
+<html>
+ <head>
+  <title>Settings DhanX</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background-color: black;
+      color: red;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    .button {
+      display: inline-block;
+      background-color: red;
+      color: black;
+      padding: 10px 20px;
+      margin: 5px;
+      border: 2px solid black;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: darkred;
+    }
+    .background-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.5;
+    }
+    .success-message {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      margin-top: 10px;
+      display: none;
+    }
+  </style>
+  <script>
+    function showSuccessMessage(button) {
+      let message = button.nextElementSibling;
+      message.style.display = "block";
+      setTimeout(() => {
+        message.style.display = "none";
+      }, 2000);
+    }
+  </script>
+ </head>
+ <body>
+  <div class="container">
+    <div class="title">WELCOME TO NCS CORPORATION | DhanXzzOfficial</div>
+    
+    <div class="section-title">AIMBOT SECTION</div>
+    <button class="button" onclick="showSuccessMessage(this)">AIMBOT SCAN</button>
+    <span class="success-message">Cheat Success✅</span>
+    <button class="button" onclick="showSuccessMessage(this)">AIMBOT ENABLE</button>
+    <span class="success-message">Cheat Success✅</span>
+    <button class="button" onclick="showSuccessMessage(this)">AIMBOT DISABLE</button>
+    <span class="success-message">Cheat Success✅</span>
+
+    <div class="section-title">SNIPER SECTION</div>
+    <button class="button" onclick="showSuccessMessage(this)">SNIPER SCOPE</button>
+    <span class="success-message">Cheat Success✅</span>
+    <button class="button" onclick="showSuccessMessage(this)">DISABLE SNIPER SCOPE</button>
+    <span class="success-message">Cheat Success✅</span>
+    <button class="button" onclick="showSuccessMessage(this)">DISABLE QUICK SCOPE</button>
+    <span class="success-message">Cheat Success✅</span>
+
+    <div class="section-title">SNIPER AIMBOT</div>
+    <button class="button" onclick="showSuccessMessage(this)">AIMBOT SNIPER</button>
+    <span class="success-message">Cheat Success✅</span>
+
+    <div class="section-title">AIMBOT ENABLE/DISABLE</div>
+    <button class="button" onclick="showSuccessMessage(this)">AIMBOT ENABLED</button>
+    <span class="success-message">Cheat Success✅</span>
+  </div>
+  <img class="background-image" src="https://files.catbox.moe/gcinb5.jpg" alt="Background with red dragon design" width="800" height="1200"/>
+ </body>
+</html>
